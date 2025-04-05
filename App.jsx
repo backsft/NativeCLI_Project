@@ -1,5 +1,5 @@
-import { Button, StyleSheet, Text, TextInput, View } from 'react-native';
-import React, { useState } from 'react';
+import {Button, StyleSheet, Text, TextInput, View} from 'react-native';
+import React, {useState} from 'react';
 
 const App = () => {
   const [firstName, setFirstName] = useState('');
@@ -19,7 +19,7 @@ const App = () => {
     setSubmittedName(fullName);
     setFirstName('');
     setLastName('');
-    setAddress('')
+    setAddress('');
     setError('');
   };
 
